@@ -6,6 +6,13 @@
 - [위키피디아 원문](https://en.wikipedia.org/wiki/Software_architecture)
   - Software architecture is the set of structures needed to reason about a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.
 
+## 디자인 패턴 (Design Pattern)
+- 디자인 패턴이란, 소프트웨어 디자인 과정에서 발생하는 공통된 문제에 대해 재사용이 가능한 해결책이다.
+- 상황에 맞게 사용될 수 있는 문제들을 해결하는데 쓰이는 템플릿을 의미하며, 프로그래머가 소프트웨어 시스템을 설계할 때 직면하는 문제를 해결하는 형식화된 해결법이다.
+- 소프트웨어 아키텍처와의 차이점?
+  - 소프트웨어 아키텍처는 소프트웨어의 뼈대나 고수준의 기반을 담당하며, 디자인 패턴은 각각의 모듈들이 어떤 역할을 하는지나 클래스의 범위 또는 함수의 목적 등 코드 수준의 기반을 담당하고 있다.
+  - 즉, 소프트웨어 아키텍처는 거시적인 관점에서의 설계, 디자인 패턴은 세부적인 관점에서의 설계라고 보면 될 것이다.
+
 ## MVC 패턴 (Model-View-Controller Pattern)
 - 모델, 뷰, 컨트롤러로 이루어진 패턴
   - 모델: 앱에 필요한 모든 데이터와 정보를 담고 있는 부분으로, 데이터와 정보를 가공하여 뷰에 전달하는 부분이다.
