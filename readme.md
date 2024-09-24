@@ -4,7 +4,9 @@
 ## 질문 목록
 - [자료구조](https://github.com/kuman514/ComputerScienceCores/blob/main/data-structure/readme.md)
 - [알고리즘](https://github.com/kuman514/ComputerScienceCores/blob/main/algorithm/readme.md)
+- [소프트웨어 아키텍처](https://github.com/kuman514/ComputerScienceCores/blob/main/software-architecture/readme.md)
 - [디자인 패턴](https://github.com/kuman514/ComputerScienceCores/blob/main/design-pattern/readme.md)
+- 객체지향 프로그래밍 (작성 중)
 - 운영체제 (작성 중)
 - 네트워크 (작성 중)
 - 프로그래밍 언어 작동 방식 (작성 중)
