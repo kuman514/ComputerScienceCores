@@ -4,8 +4,8 @@
 ## 질문 목록
 - [자료구조](https://github.com/kuman514/ComputerScienceCores/blob/main/data-structure/readme.md)
 - [알고리즘](https://github.com/kuman514/ComputerScienceCores/blob/main/algorithm/readme.md)
-- [소프트웨어 아키텍처](https://github.com/kuman514/ComputerScienceCores/blob/main/software-architecture/readme.md)
-- [디자인 패턴](https://github.com/kuman514/ComputerScienceCores/blob/main/design-pattern/readme.md)
-- [객체지향 프로그래밍](https://github.com/kuman514/ComputerScienceCores/blob/main/object-oriented-programming/readme.md)
+- [소프트웨어 아키텍처 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/software-architecture/readme.md)
+- [디자인 패턴 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/design-pattern/readme.md)
+- [객체지향 프로그래밍 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/object-oriented-programming/readme.md)
 - [데이터베이스 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/database/readme.md)
 - (그 외 부족한 부분이 있다면 이 레포지토리에 보충하도록 하겠습니다.)
