@@ -45,16 +45,22 @@
 - 두 테이블 사이에 중재하는 테이블을 두어 구현할 수 있다.
 - 예: 고객 테이블과 상품 테이블의 관계 사이에 상품 주문 테이블을 만드는데, 이 때 상품 주문 테이블은 고객 테이블에 대해 1:N 관계 + 상품 테이블에 대해 1:N 관계를 맺는다
 ### 관계형 데이터베이스의 구성 요소
-- 테이블 (Table) 또는 릴레이션 (Relation)
-- 행(Row) 또는 레코드 (Record) 또는 튜플 (Tuple)
-- 열 (Column) 또는 속성 (Attribute) 또는 필드 (Field)
-- 도메인 (Domain)
-- 키 (Key)
-  - 슈퍼키 (Super Key)
-  - 후보키 (Candidate Key)
-  - 기본키 (Primary Key)
-  - 대체키 (Alternative Key)
-  - 외래키 (Foreign Key)
+- 테이블 (Table) 또는 릴레이션 (Relation): 데이터베이스에서 데이터를 행과 열 형태의 구조로 모아 저장해놓은 공간.
+- 스키마 (Schema) 또는 헤더 (Header): 데이터베이스 테이블과 데이터 구조의 정의, 즉 데이터베이스의 설계와 구조를 나타낸 것이다.
+- 인스턴스 (Instance): 정의된 스키마를 따라 테이블 내 실제 값으로 저장된 데이터이다.
+- 레코드 (Record) 또는 행(Row) 또는 튜플 (Tuple): 테이블 내 한 개의 데이터.
+- 카디널리티 (Cardinality): 레코드의 개수.
+- 속성 (Attribute) 또는 열 (Column) 또는 필드 (Field): 테이블 내 하나의 데이터 종류.
+- 차수 (Degree): 속성의 개수.
+- 도메인 (Domain): 속성이 가질 수 있는 값의 범위.
+- 제약 조건 (Constraints): 데이터의 무결성을 보장하기 위한 제한 사항.
+  - 예시: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL 등등.
+- 키 (Keys)
+  - 슈퍼키 (Super Key): 테이블 내 중복되지 않는 (즉 유일한) 값을 가지는 속성.
+  - 후보키 (Candidate Key): 슈퍼키 내 기본키들의 후보.
+  - 기본키 (Primary Key): 후보키들 중 선정된 대표적인 키.
+  - 대체키 (Alternative Key): 기본키가 아닌 후보키.
+  - 외래키 (Foreign Key): 다른 테이블을 참조할 때 사용되는 키.
 
 ## 데이터베이스의 정규화
 - 데이터베이스 내 데이터의 중복을 줄이고 데이터의 무결성을 보장하는 설계 방법이다.
