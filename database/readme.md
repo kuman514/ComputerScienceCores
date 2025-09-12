@@ -82,6 +82,46 @@
 
 ## SQL
 ### 레코드 검색
-- SELECT
-- FROM
-- WHERE
+- SELECT column_name, ...
+  - DISTINCT
+  - COUNT
+  - *
+  - AS alias
+- FROM table_name
+- JOIN
+  - INNER JOIN right_table_name ON table_name.column_name = right_table_name.column_name
+  - LEFT JOIN
+  - RIGHT JOIN
+  - OUTER JOIN
+- WHERE condition
+  - AND / OR / NOT
+- ORDER BY column_name
+  - ASC / DESC
+- GROUP BY column_name
+  - HAVING
+
+### 레코드 추가
+- INSERT INTO table_name
+- VALUES ( value, ... )
+
+### 레코드 변경
+- UPDATE table_name
+- SET column = value, ...
+- WHERE condition
+
+### 레코드 삭제
+- DELETE FROM table_name
+- WHERE condition
+
+### 테이블 생성
+- CREATE TABLE table_name ( column_name data_type, ... );
+
+### 테이블 변경
+- ALTER TABLE table_name
+  - ADD column_name data_type
+  - DROP COLUMN column_name
+  - RENAME COLUMN column_name TO new_column_name
+  - MODIFY COLUMN column_name new_data_type
+
+### 테이블 삭제
+- DROP TABLE table_name;
