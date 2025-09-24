@@ -10,3 +10,4 @@
 - [데이터베이스 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/database/readme.md)
 - [네트워크 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/network/readme.md)
 - [운영체제 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/operation-system/readme.md)
+- [보안 (작성 중)](https://github.com/kuman514/ComputerScienceCores/blob/main/security/readme.md)
