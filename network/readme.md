@@ -53,3 +53,6 @@
 - 300번대: 리다이렉션 등의 추가 조치 필요
 - 400번대: 사용자 측 오류 (대표적으로 404 Not Found, 403 Forbidden 등등)
 - 500번대: 서버 측 오류 (대표적으로 502 Bad Gateway 등등)
+
+## REST API
+- REST API는 서버 자원을 URI로 식별하고, 그 자원에 대한 행위를 GET, POST, PUT, DELETE 등의 HTTP 메서드로 표현하는 규칙 기반의 API 설계 방식.
