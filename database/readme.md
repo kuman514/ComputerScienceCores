@@ -90,9 +90,13 @@
 - FROM table_name
 - JOIN
   - INNER JOIN right_table_name ON table_name.column_name = right_table_name.column_name
+    - 왼쪽이나 오른쪽 두 곳 모두 데이터가 있으면 행을 출력
   - LEFT JOIN
+    - 왼쪽에 데이터가 있으면 행을 출력
   - RIGHT JOIN
+    - 오른쪽에 데이터가 있으면 행을 출력
   - OUTER JOIN
+    - 왼쪽이나 오른쪽 중 한 쪽에 데이터가 있으면 행을 출력
 - WHERE condition
   - AND / OR / NOT
 - ORDER BY column_name
