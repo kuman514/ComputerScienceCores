@@ -49,3 +49,37 @@
 ## 클래스 간 관계
 - is-a 관계: 상속 관계 (예: Dog is a Animal)
 - has-a 관계: 포함 관계 (예: Car has a Engine)
+
+## SOLID
+
+### Single Responsibility Principle (단일 책임 원칙)
+- 소프트웨어 모듈은 변화를 일으키는 이유가 단 한 가지뿐이어야 한다.
+- 모든 클래스는 단 하나의 책임만을 가지며, 그 책임을 모두 캡슐화해야 한다.
+- 하나의 클래스에서 두 가지 이상의 책임을 가지면, 결합도가 높아져 유지보수가 어렵게 된다.
+
+### Open/Closed Principle (개방-폐쇄 원칙)
+- 확장에는 개방적이고 변경에는 폐쇄적이어야 한다.
+- 확장에 개방적이라는게 무슨 의미?
+  - 클래스를 상속(extends class)하거나 인터페이스를 구현(implements interface)함으로써 기능을 추가하는 것.
+- 변경에 폐쇄적이라는게 무슨 의미?
+  - 클래스 자체를 직접적으로 바꾸는 것을 지양하고 상속과 구현을 통해 기능을 추가하라는 것.
+
+### Liskov Substitution Principle (리스코프 치환 원칙)
+- 자식 클래스는 부모 클래스인 것 마냥 완전히 똑같이 다루어져야 한다.
+- 자식 클래스는 부모 클래스의 행동을 파괴해선 안 된다.
+- 예: Sparrow 클래스와 Ostrich 클래스가 Bird 클래스를 상속하고자 한다.
+  - 이 때, Bird 클래스에 하늘을 난다는 fly 메소드가 있을 때, 날 수 없는 타조인 Ostrich 클래스가 이를 상속받으려면 fly 메소드를 파괴해야 한다.
+  - 해결 방안으로, Bird 클래스 대신 이를 상속받는 FlyingBird 클래스에 fly 메소드를 부여하고, Ostrich 클래스는 Bird 클래스를, Sparrow 클래스는 FlyingBird 클래스를 상속받는다.
+
+### Interface Segregation Principle (인터페이스 분리 원칙)
+- 사용자들은 사용하지 않는 인터페이스를 강요받아선 안 된다.
+- 예: Mechanic 클래스는 Car 클래스에 대해 repair 메소드를 제공받을 것인데, 이 때 Mechanic 클래스에 불필요한 sell같은 메소드가 Car 클래스에 있으면 안 된다.
+  - 해결 방안으로, Car 클래스를 repair 메소드만 있는 Repairable 인터페이스와 sell 메소드만 있는 Sellable 인터페이스로 나누고, Mechanic 클래스에는 Repairable 인터페이스만 제공될 수 있도록 한다.
+  - Repairable 인터페이스: repair(...) 메소드
+  - Sellable 인터페이스: sell(...) 메소드
+  - Car 클래스 implements Repairable, Sellable
+  - Mechanic 클래스: repair(repairable: Repairable) { repairable.repair(...); }
+
+### Dependency Inversion Principle (의존 역전 원칙)
+- 고수준 모듈은 저수준 모듈에 의존하지 말아야 하고, 둘 다 추상 모듈에 의존해야 한다.
+- 추상 모듈은 세부 모듈에 의존하지 말아야 하고, 세부 모듈은 추상 모듈에 의존해야 한다.
