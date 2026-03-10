@@ -11,3 +11,4 @@
 - [네트워크](https://github.com/kuman514/ComputerScienceCores/blob/main/network/readme.md)
 - [운영체제](https://github.com/kuman514/ComputerScienceCores/blob/main/operation-system/readme.md)
 - [보안](https://github.com/kuman514/ComputerScienceCores/blob/main/security/readme.md)
+- [시스템 디자인](https://github.com/kuman514/ComputerScienceCores/blob/main/system-design/readme.md)
